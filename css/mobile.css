@@ -1,0 +1,155 @@
+nav{
+    flex-direction: column;
+    text-align: center;
+}
+nav ul li {
+    display: block;
+    padding: 5px;
+}
+#home{
+    width: 100%;
+}
+#home .home-container{
+    flex-direction: column-reverse;
+
+}
+#home .home-container .home-content{
+    width: 100%;
+}
+#home .home-container .home-cover {
+    width: 100%;
+}
+/*clients*/
+#clients ul{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#clients ul li {
+    display: block;
+
+}
+/*about*/
+#about{
+    flex-direction: column;
+}
+#about .about-content .about-box{
+    width: 100%;
+}
+#about .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+text-align: center;
+}
+#about .about-container .about-box .icon {
+    position: absolute;
+    left: -10px;
+    top:2px;
+}
+/*services*/
+#services .services-body .card-container-1,
+#services .services-body .card-container-2 {
+    display: flex;
+    justify-content: space-around;
+flex-direction: column;
+
+}
+#services .services-body .services-card {
+    padding: 0.75rem;
+    position: relative;
+    align-self: center;
+    margin-left: 5%;
+    margin-bottom: 30%;
+
+}
+/*features*/
+#features .features-container {
+    display: flex;
+    margin: 10% 0;
+    flex-direction: column;
+    text-align: center;
+}
+#features .features-container .features-content p i {
+    padding-right: 5%;
+}
+#features :nth-child(4){
+    flex-direction: column-reverse;
+}
+
+/*portfolio*/
+#portfolio .portfolio-parent {
+    display: flex;
+    
+    margin: 5% 0;
+    flex-direction: column;
+    justify-content: center;
+
+}#portfolio .portfolio-parent .portfolio-card {
+    margin: 2% 1%;
+    width: 80%;
+    justify-self: center;
+}
+/*team*/
+#team .team-container{
+    flex-direction: column;
+}
+#team .team-container img{
+    width: 50%;
+}
+/* pricing */
+#pricing .pricing-container {
+    display: flex;
+flex-direction: column;
+}
+#pricing .pricing-container .pricing-card {
+    margin: 2%;
+    width: 90%;
+}
+/* questions */
+#questions .question-box{
+    flex-direction: column;
+  width: 100%;
+}
+#questions .question-box .answer{
+    width: 100%;
+}
+#questions .question-box .question{
+    width: 100%;
+}
+#questions .question-box .question h4{
+    width: 100%;
+}
+/* contact */
+#contact .contact-container{
+    flex-direction: column;
+}
+#contact .contact-container .contact-information .info {
+ flex-direction: column;
+ width: 100%;
+}
+#contact .contact-content {
+    width: 100%;
+}
+#contact .contact-content .contact-form input {
+    width:100%;
+   
+}
+#contact .contact-content .contact-form .subject {
+    width: 100%;
+}
+
+/* footer */
+footer .overly p {
+    width: 70%;
+    
+}
+footer .overly form .email {
+  
+    width: 100%;
+    
+}
+footer .overly form .submit {
+    right: -1px;
+    
+}
